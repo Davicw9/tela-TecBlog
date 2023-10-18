@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 241, 249);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*INICIO DO CABEÇALHO*/
+#cabecalho{
+    background-color: rgb(233, 175, 68);
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#nome-do-site{
+    font-size: 22px;
+}
+
+#tec{
+    color: rgb(14, 24, 56);
+}
+
+#blog{
+    color: rgb(255, 255, 255);
+}
+#nome-do-site h1{
+    display: inline;
+}
+
+.link-cabecalho{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px
+}
+
+#links-cabecalho{
+    margin-top: 20px;
+}
+
+.link-cabecalho:hover{
+    color: blue;
+}
+/*FINAL DO CABEÇALHO*/
+
+#container{
+    width: 80%;
+    padding: 15px 0px 15px 0px;
+    margin: 20px auto;
+    
+}
+
+#area-de-postagens{
+    width: 60%;
+    /*border: 3px solid gray;*/
+    float: left;
+    margin-left: 115px;
+}
+
+#area-lateral{
+    /*border: 3px solid rgb(54, 126, 57);*/
+    width: 23%;
+    float: right;
+    margin-right: 115px;
+}
+
+.divs-laterais{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+}
+#postagens-recentes{
+    width: 100%;
+    /*border: 3px solid rgb(226, 243, 76);*/
+    margin-bottom: 20px;  
+}
+#postagens-recentes hr{
+    margin: 10px 0px;
+}
+.titulo-postagem, .descricao-imagem{
+    padding: 10px 0px;
+}
+.titulo-postagem h1{
+    color: #e7ad0c;
+}
+
+.data-da-postagem{
+    padding: 5px 0px;
+}
+
+.divs-laterais h3{
+    background-color: rgb(189, 189, 189);
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 6px;
+}
+#categorias{
+    width: 100%;
+    /*border: 3px solid rgb(46, 190, 209);*/
+}
+#categorias li{
+    list-style-type: none;
+}
+
+.link-lista{
+    color: #e7ad0c;
+    text-decoration: none;
+}
+
+.link-lista:hover{
+    color: blue;
+}
+
+.postagens{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px 10px 20px;
+    margin-bottom: 20px;
+    width: 92%;
+}
+
+.imagens{
+    width: 100%;
+}
+
+#rodape{
+    width: 67.7%;
+    height: 60px;
+    background-color: rgb(196, 194, 199);
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.clear{
+    clear: both;
+}
+
+#davi-andrade{
+    width: 130px;
+    height: 25px;
+    font-size: 13px;
+    background-color: rgb(103, 104, 104);
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+
+
